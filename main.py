@@ -4,9 +4,19 @@ from urllib import response, request
 import feedparser
 import requests
 from newspaper import Article
+import firebase_admin
+from firebase_admin import credentials, firestore
+
+
 
 import model
 import rssConfig
+
+# bazı haberlerin tarihi çekilemiyor rss xmlinden çekelim
+# maç hangi kanalda?, nezaman, canlı izle vb. haberleri atlayalım
+
+
+
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -49,6 +59,28 @@ for source_name, rss_url in rssConfig.rssLinks.items():
         except Exception as e:
             print("Hata oluştu: ", e)
     print(f"\n✨ Total {len(collected_news)} raw news items successfully collected!")
+
+    print("\n🔥 Connecting to Firebase Firestore...")
+
+    cred = credentials.Certificate("firebase_key.json")
+
+    if not firebase_admin._apps:
+        firebase_admin.initialize_app(cred)
+
+    db = firestore.client()
+
+    print("📤 Uploading news to Firestore...\n")
+
+
+    for news in collected_news:
+
+        document_id = str(abs(hash(news.link)))
+
+        db.collection("Raw_News").document(document_id).set(news.to_dict())
+
+        print(f"💾 Saved to DB: {news.title[:40]}...")
+
+    print("\n✅ All news items have been successfully saved to Firestore!")
 
 
 

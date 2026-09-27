@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6db3dfcb-1db9-4836-bd84-6bd11fc801c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -23,81 +24,81 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "TunaHan-42"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TunaHan-42&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/TunaHan-42/ai-newspaper-script.git",
-    "accountId": "d94cc539-ae03-4fde-9a51-7b3f1de8a684"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TunaHan-42/ai-newspaper-script.git&quot;,
+    &quot;accountId&quot;: &quot;d94cc539-ae03-4fde-9a51-7b3f1de8a684&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000003878999" />
-      <entry key="S2" value="1.0177151445189743" />
-      <entry key="S5" value="1.3846143512168645" />
-      <entry key="S10" value="2.0739257397086135" />
-      <entry key="S30" value="3.1303384324797325" />
-      <entry key="S60" value="3.584863926446611" />
-      <entry key="M2" value="4.944182462562668" />
-      <entry key="M5" value="14.554251785452037" />
-      <entry key="M10" value="33.509141474790766" />
-      <entry key="M15" value="52.36711131944342" />
-      <entry key="M30" value="102.36206101113406" />
-      <entry key="H1" value="164.90279837889915" />
-      <entry key="H2" value="218.95382223206812" />
-      <entry key="H4" value="255.29163027763832" />
-      <entry key="D1" value="291.88137388219434" />
-      <entry key="W1" value="298.822596199901" />
+      <entry key="MS100" value="1.520962741253943" />
+      <entry key="MS500" value="3.075105645166122" />
+      <entry key="S2" value="4.833030691604317" />
+      <entry key="S5" value="5.478601811170092" />
+      <entry key="S10" value="5.729140814729926" />
+      <entry key="S30" value="5.999535523184698" />
+      <entry key="S60" value="7.005272100903481" />
+      <entry key="M2" value="10.613237714479345" />
+      <entry key="M5" value="24.265130435912976" />
+      <entry key="M10" value="40.274028783204024" />
+      <entry key="M15" value="53.227984690777184" />
+      <entry key="M30" value="96.29109190075373" />
+      <entry key="H1" value="177.22571886814032" />
+      <entry key="H2" value="272.8708102115477" />
+      <entry key="H4" value="350.61093929864785" />
+      <entry key="D1" value="439.7509930183457" />
+      <entry key="W1" value="457.88534751799483" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.7646858973043276E-36" />
-      <entry key="MS500" value="7.068601247137477E-8" />
-      <entry key="S2" value="0.016305471840682553" />
-      <entry key="S5" value="0.19272291163063324" />
-      <entry key="S10" value="0.43900217725229757" />
-      <entry key="S30" value="0.7602758785378796" />
-      <entry key="S60" value="0.9195580556055364" />
-      <entry key="M2" value="1.8759407338339344" />
-      <entry key="M5" value="8.373935932737039" />
-      <entry key="M10" value="17.57082652476109" />
-      <entry key="M15" value="23.500810507685006" />
-      <entry key="M30" value="33.030107569185716" />
-      <entry key="H1" value="40.58482889397463" />
-      <entry key="H2" value="45.646003778160946" />
-      <entry key="H4" value="48.63349284623422" />
-      <entry key="D1" value="51.409760909029075" />
-      <entry key="W1" value="51.91492552680177" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="3.4111789082675707E-152" />
+      <entry key="S10" value="1.846937710987453E-76" />
+      <entry key="S30" value="5.694873702753769E-26" />
+      <entry key="S60" value="2.3868240371287745E-13" />
+      <entry key="M2" value="4.957156302024599E-7" />
+      <entry key="M5" value="0.0043540490359080235" />
+      <entry key="M10" value="0.23708191393708505" />
+      <entry key="M15" value="1.2486737241723838" />
+      <entry key="M30" value="7.750592423097342" />
+      <entry key="H1" value="20.618090965709182" />
+      <entry key="H2" value="34.30741177972893" />
+      <entry key="H4" value="44.51251678472796" />
+      <entry key="D1" value="55.47993383170466" />
+      <entry key="W1" value="57.63265333933889" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2813924360633144E-4" />
-      <entry key="MS500" value="0.16654687250611988" />
-      <entry key="S2" value="0.6637140069884196" />
-      <entry key="S5" value="1.3411008715392585" />
-      <entry key="S10" value="2.3263635689078934" />
-      <entry key="S30" value="3.7938523322820097" />
-      <entry key="S60" value="4.448178168351736" />
-      <entry key="M2" value="6.776568698696386" />
-      <entry key="M5" value="22.868082027398255" />
-      <entry key="M10" value="51.01676721887366" />
-      <entry key="M15" value="75.8104482451765" />
-      <entry key="M30" value="135.35019647101436" />
-      <entry key="H1" value="205.46097887577642" />
-      <entry key="H2" value="264.5845047158283" />
-      <entry key="H4" value="303.9168552443207" />
-      <entry key="D1" value="343.28966089020815" />
-      <entry key="W1" value="350.7373086492848" />
+      <entry key="MS100" value="1.421327984677033" />
+      <entry key="MS500" value="3.002526183125972" />
+      <entry key="S2" value="4.806949118400595" />
+      <entry key="S5" value="5.467242012530939" />
+      <entry key="S10" value="5.723290222482335" />
+      <entry key="S30" value="5.997521508724994" />
+      <entry key="S60" value="7.0041320974367824" />
+      <entry key="M2" value="10.61242005169194" />
+      <entry key="M5" value="24.268739887102523" />
+      <entry key="M10" value="40.50968146612306" />
+      <entry key="M15" value="54.47315315837026" />
+      <entry key="M30" value="104.03162961249741" />
+      <entry key="H1" value="197.83024143961822" />
+      <entry key="H2" value="307.1667386383429" />
+      <entry key="H4" value="395.11592370723156" />
+      <entry key="D1" value="495.22934557533375" />
+      <entry key="W1" value="515.5177657427921" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Js6vHcMq6UurzP5T7SVrR3N5Nj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -115,8 +116,10 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
@@ -137,7 +140,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1790437658039</updated>
-      <workItem from="1790437659038" duration="5380000" />
+      <workItem from="1790437659038" duration="5653000" />
+      <workItem from="1790516547398" duration="606000" />
+      <workItem from="1790517170730" duration="483000" />
+      <workItem from="1790517671003" duration="409000" />
+      <workItem from="1790518326123" duration="36000" />
+      <workItem from="1790518375077" duration="3784000" />
     </task>
     <servers />
   </component>
@@ -156,6 +164,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AiNewspaperScript$main.coverage" NAME="main Coverage Results" MODIFIED="1790443258989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AiNewspaperScript$main.coverage" NAME="main Coverage Results" MODIFIED="1790521098413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
